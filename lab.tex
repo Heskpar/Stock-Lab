@@ -1,0 +1,391 @@
+\documentclass{ffslides}
+\ffpage{35}{\numexpr 16/9}
+\usepackage{fancyvrb}
+\begin{document}
+    
+    
+    
+\normalpage{Title Page}{
+\ctext{0.185}{0.2}{0.3}
+{\begin{center}{\huge Stock Lab}\end{center}
+In this project, we created a primative stock market that implements minimum and maximum heaps.
+Users will be able to buy and sell stocks and see what the market price is for each stock in 
+a General User Interface. A window in the GUI will also list the previous transactions done.
+}
+}
+
+\normalpage{Stock Lab: lab.h}{
+\VerbatimInput[lastline = 24]{lab.h}
+}
+\ctext{.5}{.2}{.4}{
+\qi{include files for all modules}
+%\qi{constants such as window width and height}
+%\qi{extern statements for global variables}
+%\qi{function declarations}
+}
+
+
+\normalpage{Stock Lab: lab.h Cont}{
+\VerbatimInput[firstline = 27, lastline = 49]{lab.h}
+}
+\ctext{.3}{.2}{.4}{
+\qi{template for converting integers to string in the transaction log}
+\qi{constants such as window width and height}
+%\qi{extern statements for global variables}
+\qi{function declarations}
+}
+
+\normalpage{Stock Lab: lab.h Cont}{
+\VerbatimInput[firstline = 51, lastline = 71]{lab.h}
+}
+\ctext{.3}{.2}{.4}{
+%\qi{template for converting integers to string in the transaction log}
+%\qi{constants such as window width and height}
+\qi{extern statements for global variables}
+\qi{the company objects are made global, so are the vector of logs and hist string}
+}
+
+\normalpage{Stock Lab: HeapMing.h}{
+\VerbatimInput[lastline = 23]{HeapMing.h}
+}
+\ctext{.3}{.2}{.4}{
+%In this part of the Heap header file, we do the following:
+\qi{in this part of the heap header file we are creating the Heap class}
+%\qi{Define the Member functions for the Heap class(lines 30 -98}
+%\qi{Create the ma}
+}
+
+
+\normalpage{Stock Lab: HeapMing.h Cont}{
+\VerbatimInput[firstline = 25,lastline=52,fontsize=\small]{HeapMing.h}
+}
+\ctext{.3}{.2}{.4}{
+In lines 25 through 52, we define the following
+member functions.
+\qi{Heap constructer}
+\qi{Heap destructer}
+\qi{Heap Insert}
+}
+
+
+
+\normalpage{Stock Lab: HeapMing.h Cont}{
+\VerbatimInput[firstline = 54,lastline=82,fontsize=\small]{HeapMing.h}
+}
+\ctext{.3}{.2}{.4}{
+In lines 52 through 82, we define the following
+member functions.
+\qi{Heap remove}
+\qi{Heap peek}
+}
+
+
+\normalpage{Stock Lab: HeapMing.h Cont}{
+\VerbatimInput[firstline = 83,lastline=101]{HeapMing.h}
+}
+\ctext{.3}{.2}{.4}{
+In lines 83 through 101, we define the following
+member functions.
+\qi{MinHeap}
+\qi{MaxHeap}
+}
+
+
+
+\normalpage{Stock Lab: StockExchange.h}{
+\VerbatimInput[lastline = 24]{StockExchange.h}
+
+}
+\ctext{.3}{.15}{.4}{
+This is the most important class in this program
+Stock exchange is basically a company, and inside the company there is a max heap for buyers and min heap for sellers
+The remove and insert will depend on whether you're a buyer or seller. Buyers touch the max heap and Sellers touch the min heap.
+The function bodies are just one layer down into the Heap's functions.
+}
+
+\normalpage{Stock Lab: StockExchange.h Cont}{
+\VerbatimInput[firstline = 26,lastline=44]{StockExchange.h}
+
+}
+\ctext{.3}{.75}{.4}{
+This is the most important class in this program
+Stock exchange is basically a company, and inside the company there is a max heap for buyers and min heap for sellers
+The remove and insert will depend on whether you're a buyer or seller. Buyers touch the max heap and Sellers touch the min heap.
+The function bodies are just one layer down into the Heap's functions.
+}
+
+\normalpage{Stock Lab: Order.h}{
+\VerbatimInput[lastline=21]{Order.h}
+
+}
+\ctext{.3}{.3}{.4}{
+Order is simple
+A buyer and Seller both make "orders"
+It is basically 'I want company A, 500 shares, for 20 dollars. '
+Something like that
+}
+
+\normalpage{Stock Lab: Order.h Cont}{
+\VerbatimInput[firstline=22,lastline = 46]{Order.h}
+
+}
+\ctext{.3}{.3}{.4}{
+Order is simple
+A buyer and Seller both make "orders"
+It is basically 'I want company A, 500 shares, for 20 dollars. '
+Something like that
+}
+
+\normalpage{Stock Lab: Log.h}{
+\VerbatimInput[lastline = 33,fontsize=\footnotesize]{Log.h}
+
+}
+\ctext{.3}{.2}{.4}{
+The log exists
+to keep track of every successful transaction
+Only successful transactions wille be recorded in the vector of logs.
+}
+
+
+\normalpage{Stock Lab: main.cpp}{
+\VerbatimInput[lastline = 34,fontsize=\footnotesize]{main.cpp}
+
+}
+\ctext{.3}{.2}{.4}{
+In our main.cpp file, we will first call the function to create all the widgets on one window,
+then show the menu screen, and finally call the FL::run command to start up the GUI.
+
+}
+
+\normalpage{Stock Lab: createAllWidgets.cpp}{
+\VerbatimInput[lastline = 22,numbers=left,fontsize = \large]{createAllWidgets.cpp}
+
+}
+\ctext{.3}{.3}{.4}{
+In this file, we will be creating all the
+widgets on the GUI. From lines 3 to 16, we
+declare all the widgets. On line 18, we
+begin the createAllWidgets function and
+show the window to begin drawing.
+
+}
+
+
+\normalpage{Stock Lab: createAllWidgets.cpp Cont}{
+\VerbatimInput[firstline = 24,lastline = 59,fontsize=\scriptsize]{createAllWidgets.cpp}
+
+}
+\ctext{.3}{.2}{.4}{
+In this section of the cpp file, we create
+all the boxes which display the stocks and
+their market prices, and general information about the company as well
+
+}
+
+\normalpage{Stock Lab: createAllWidgets.cpp Cont}{
+\VerbatimInput[firstline = 61,lastline = 78,fontsize=\large]{createAllWidgets.cpp}
+
+}
+\ctext{.3}{.3}{.4}{
+In this section of the cpp file, we are creating the widgets for the buy
+and sell buttons, as well as the history section, which shows previous 
+buy and sell orders.
+
+}
+
+\normalpage{Stock Lab: createAllWidgets.cpp Cont}{
+\VerbatimInput[firstline = 81,lastline = 96,fontsize=\large]{createAllWidgets.cpp}
+
+}
+\ctext{.3}{.75}{.4}{
+In this section of the cpp file, we are creating the widgets that make the buy
+and sell orders possible, specifically for the drop down menus and the choices that
+the user is given, and finally the button for confirming the order.
+
+}
+
+\normalpage{Stock Lab: hideInputScreen.cpp}{
+\VerbatimInput[lastline = 8,fontsize=\large]{hideInputScreen.cpp}
+
+}
+\ctext{.3}{.2}{.8}{
+\qi{This function is responsible for closing the order window after it is used}
+}
+
+\normalpage{Stock Lab: hideMenuScreen.cpp}{
+\VerbatimInput[lastline = 8,fontsize=\large]{hideMenuScreen.cpp}
+
+}
+\ctext{.3}{.2}{.8}{
+\qi{This function is responsible for closing the menu widgets after they are used}
+}
+
+\normalpage{Stock Lab: showInputScreen.cpp}{
+\VerbatimInput[lastline = 8]{showInputScreen.cpp}
+
+}
+\ctext{.3}{.2}{.8}{
+\qi{This function is responsible for opening the input widgets so they can be used}
+}
+
+\normalpage{Stock Lab: showMenuScreen.cpp}{
+\VerbatimInput[lastline = 17]{showMenuScreen.cpp}
+
+}
+\ctext{.3}{.2}{.8}{
+\qi{This function is responsible for opening the menu widgets}
+}
+
+\normalpage{Stock Lab: StockExchange.cpp}{
+\VerbatimInput[lastline = 29,fontsize=\small,numbers=left]{StockExchange.cpp}
+
+}
+\ctext{.3}{.2}{.8}{
+This file contains function definitions for all\\ of the functions for the StockExchange class.
+\\Lines 1 through 29 contains the following functions: \\
+\qi{Constructor}
+\qi{Destructor}
+\qi{PeekSeller}
+\qi{PeekBuyer}
+}
+
+\normalpage{Stock Lab: StockExchange.cpp Cont}{
+\VerbatimInput[firstline=31,lastline = 60,fontsize=\small,numbers=left]{StockExchange.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+Lines 31 through 61 contains the following functions: \\
+\qi{Populate: fills the heap with random data}
+\qi{SaveSeller}
+}
+
+\normalpage{Stock Lab: StockExchange.cpp Cont}{
+\VerbatimInput[firstline=62,lastline = 81,numbers=left]{StockExchange.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+Lines 62 through 81 contains the SaveBuyer function
+}
+
+\normalpage{Stock Lab: StockExchange.cpp Cont}{
+\VerbatimInput[firstline=83,lastline = 105,numbers=left]{StockExchange.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+Lines 83 through 105 contains the LoadSeller function
+}
+
+\normalpage{Stock Lab: StockExchange.cpp Cont}{
+\VerbatimInput[firstline=107,lastline = 129,numbers=left]{StockExchange.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+Lines 107 through 129 contains the LoadBuyer function
+}
+
+\normalpage{Stock Lab: StockExchange.cpp Cont}{
+\VerbatimInput[firstline=131,lastline = 148,numbers=left]{StockExchange.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+Lines 131 through 148 contains the SaveLog function
+}
+
+\normalpage{Stock Lab: StockExchange.cpp Cont}{
+\VerbatimInput[firstline=150,lastline = 170,numbers=left]{StockExchange.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+Lines 150 through 170 contains the LoadLog function
+}
+
+
+
+
+\normalpage{Stock Lab: placeOrderPressedcb.cpp}{
+\VerbatimInput[lastline = 17,fontsize=\small,numbers=left]{placeOrderPressed_cb.cpp}
+
+}
+\ctext{.3}{.2}{.8}{
+This file handles the place order button by taking in the input from the order window
+and determining what to buy or sell at what price. In these first lines, we declare the variables
+to be used in our selection statements.
+}
+
+\normalpage{Stock Lab: placeOrderPressedcb.cpp Cont}{
+\VerbatimInput[firstline=18,lastline = 43,fontsize=\small,numbers=left]{placeOrderPressed_cb.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+In this part of the file, we deal with the user's choice to buy Google stocks. 
+}
+
+\normalpage{Stock Lab: placeOrderPressedcb.cpp Cont}{
+\VerbatimInput[firstline=44,lastline = 64,fontsize=\small,numbers=left]{placeOrderPressed_cb.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+In this part of the file, we deal with the user's choice to sell Google stocks. 
+}
+
+\normalpage{Stock Lab: placeOrderPressedcb.cpp Cont}{
+\VerbatimInput[firstline=65,lastline = 86,fontsize=\small,numbers=left]{placeOrderPressed_cb.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+In this part of the file, we deal with the user's choice to buy Intel stocks. 
+}
+
+
+\normalpage{Stock Lab: placeOrderPressedcb.cpp Cont}{
+\VerbatimInput[firstline=87,lastline = 108,fontsize=\small,numbers=left]{placeOrderPressed_cb.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+In this part of the file, we deal with the user's choice to sell Intel stocks. 
+}
+
+
+\normalpage{Stock Lab: placeOrderPressedcb.cpp Cont}{
+\VerbatimInput[firstline=109,lastline = 135,fontsize=\small,numbers=left]{placeOrderPressed_cb.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+In this part of the file, we deal with the user's choice to buy Intel Apple stocks. 
+}
+
+\normalpage{Stock Lab: placeOrderPressedcb.cpp Cont}{
+\VerbatimInput[firstline=136,lastline = 159,fontsize=\small,numbers=left]{placeOrderPressed_cb.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+In this part of the file, we deal with the user's choice to sell Intel Apple stocks. 
+}
+
+\normalpage{Stock Lab: placeOrderPressedcb.cpp Cont}{
+\VerbatimInput[firstline=160,lastline = 175,numbers=left]{placeOrderPressed_cb.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+In this part of the file, we check to see if the trade was successful, if so. We push the 
+order back on the log vector.
+}
+
+
+
+\normalpage{Stock Lab: buyPressedcb.cpp Cont}{
+\VerbatimInput[numbers=left]{buyPressed_cb.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+In this file we let the program know that the user is making a purchase order.
+}
+
+\normalpage{Stock Lab: sellPressedcb.cpp Cont}{
+\VerbatimInput[numbers=left]{sellPressed_cb.cpp}
+
+}
+\ctext{.4}{.2}{.8}{
+In this file we let the program know that the user is making a purchase order.
+}
+\end{document}

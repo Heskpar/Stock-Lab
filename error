@@ -1,0 +1,313 @@
+/tmp/ccVUrDJL.o: In function `StockExchange::StockExchange(int)':
+createAllWidgets.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::StockExchange(int)':
+createAllWidgets.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::~StockExchange()':
+createAllWidgets.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::~StockExchange()':
+createAllWidgets.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::getPriceSeller()':
+createAllWidgets.cpp:(.text+0x11e): multiple definition of `StockExchange::getPriceSeller()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x11e): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::getPriceBuyer()':
+createAllWidgets.cpp:(.text+0x19e): multiple definition of `StockExchange::getPriceBuyer()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x19e): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::populate(std::string)':
+createAllWidgets.cpp:(.text+0x21e): multiple definition of `StockExchange::populate(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x21e): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::saveSeller(std::string)':
+createAllWidgets.cpp:(.text+0x504): multiple definition of `StockExchange::saveSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x504): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::saveBuyer(std::string)':
+createAllWidgets.cpp:(.text+0x798): multiple definition of `StockExchange::saveBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x798): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::loadSeller(std::string)':
+createAllWidgets.cpp:(.text+0xa2e): multiple definition of `StockExchange::loadSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xa2e): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::loadBuyer(std::string)':
+createAllWidgets.cpp:(.text+0xd5c): multiple definition of `StockExchange::loadBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xd5c): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::saveLog(std::string)':
+createAllWidgets.cpp:(.text+0x108c): multiple definition of `StockExchange::saveLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x108c): first defined here
+/tmp/ccVUrDJL.o: In function `StockExchange::loadLog(std::string)':
+createAllWidgets.cpp:(.text+0x134a): multiple definition of `StockExchange::loadLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x134a): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::StockExchange(int)':
+hideInputScreen.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::StockExchange(int)':
+hideInputScreen.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::~StockExchange()':
+hideInputScreen.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::~StockExchange()':
+hideInputScreen.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::getPriceSeller()':
+hideInputScreen.cpp:(.text+0x11e): multiple definition of `StockExchange::getPriceSeller()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x11e): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::getPriceBuyer()':
+hideInputScreen.cpp:(.text+0x19e): multiple definition of `StockExchange::getPriceBuyer()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x19e): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::populate(std::string)':
+hideInputScreen.cpp:(.text+0x21e): multiple definition of `StockExchange::populate(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x21e): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::saveSeller(std::string)':
+hideInputScreen.cpp:(.text+0x504): multiple definition of `StockExchange::saveSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x504): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::saveBuyer(std::string)':
+hideInputScreen.cpp:(.text+0x798): multiple definition of `StockExchange::saveBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x798): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::loadSeller(std::string)':
+hideInputScreen.cpp:(.text+0xa2e): multiple definition of `StockExchange::loadSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xa2e): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::loadBuyer(std::string)':
+hideInputScreen.cpp:(.text+0xd5c): multiple definition of `StockExchange::loadBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xd5c): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::saveLog(std::string)':
+hideInputScreen.cpp:(.text+0x108c): multiple definition of `StockExchange::saveLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x108c): first defined here
+/tmp/ccjPq2iG.o: In function `StockExchange::loadLog(std::string)':
+hideInputScreen.cpp:(.text+0x134a): multiple definition of `StockExchange::loadLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x134a): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::StockExchange(int)':
+hideMenuScreen.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::StockExchange(int)':
+hideMenuScreen.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::~StockExchange()':
+hideMenuScreen.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::~StockExchange()':
+hideMenuScreen.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::getPriceSeller()':
+hideMenuScreen.cpp:(.text+0x11e): multiple definition of `StockExchange::getPriceSeller()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x11e): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::getPriceBuyer()':
+hideMenuScreen.cpp:(.text+0x19e): multiple definition of `StockExchange::getPriceBuyer()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x19e): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::populate(std::string)':
+hideMenuScreen.cpp:(.text+0x21e): multiple definition of `StockExchange::populate(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x21e): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::saveSeller(std::string)':
+hideMenuScreen.cpp:(.text+0x504): multiple definition of `StockExchange::saveSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x504): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::saveBuyer(std::string)':
+hideMenuScreen.cpp:(.text+0x798): multiple definition of `StockExchange::saveBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x798): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::loadSeller(std::string)':
+hideMenuScreen.cpp:(.text+0xa2e): multiple definition of `StockExchange::loadSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xa2e): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::loadBuyer(std::string)':
+hideMenuScreen.cpp:(.text+0xd5c): multiple definition of `StockExchange::loadBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xd5c): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::saveLog(std::string)':
+hideMenuScreen.cpp:(.text+0x108c): multiple definition of `StockExchange::saveLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x108c): first defined here
+/tmp/ccPZ4vHI.o: In function `StockExchange::loadLog(std::string)':
+hideMenuScreen.cpp:(.text+0x134a): multiple definition of `StockExchange::loadLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x134a): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::StockExchange(int)':
+main.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::StockExchange(int)':
+main.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::~StockExchange()':
+main.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::~StockExchange()':
+main.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::getPriceSeller()':
+main.cpp:(.text+0x11e): multiple definition of `StockExchange::getPriceSeller()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x11e): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::getPriceBuyer()':
+main.cpp:(.text+0x19e): multiple definition of `StockExchange::getPriceBuyer()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x19e): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::populate(std::string)':
+main.cpp:(.text+0x21e): multiple definition of `StockExchange::populate(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x21e): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::saveSeller(std::string)':
+main.cpp:(.text+0x504): multiple definition of `StockExchange::saveSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x504): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::saveBuyer(std::string)':
+main.cpp:(.text+0x798): multiple definition of `StockExchange::saveBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x798): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::loadSeller(std::string)':
+main.cpp:(.text+0xa2e): multiple definition of `StockExchange::loadSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xa2e): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::loadBuyer(std::string)':
+main.cpp:(.text+0xd5c): multiple definition of `StockExchange::loadBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xd5c): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::saveLog(std::string)':
+main.cpp:(.text+0x108c): multiple definition of `StockExchange::saveLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x108c): first defined here
+/tmp/cc9PjHXT.o: In function `StockExchange::loadLog(std::string)':
+main.cpp:(.text+0x134a): multiple definition of `StockExchange::loadLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x134a): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::StockExchange(int)':
+placeOrderPressed_cb.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::StockExchange(int)':
+placeOrderPressed_cb.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::~StockExchange()':
+placeOrderPressed_cb.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::~StockExchange()':
+placeOrderPressed_cb.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::getPriceSeller()':
+placeOrderPressed_cb.cpp:(.text+0x11e): multiple definition of `StockExchange::getPriceSeller()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x11e): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::getPriceBuyer()':
+placeOrderPressed_cb.cpp:(.text+0x19e): multiple definition of `StockExchange::getPriceBuyer()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x19e): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::populate(std::string)':
+placeOrderPressed_cb.cpp:(.text+0x21e): multiple definition of `StockExchange::populate(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x21e): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::saveSeller(std::string)':
+placeOrderPressed_cb.cpp:(.text+0x504): multiple definition of `StockExchange::saveSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x504): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::saveBuyer(std::string)':
+placeOrderPressed_cb.cpp:(.text+0x798): multiple definition of `StockExchange::saveBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x798): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::loadSeller(std::string)':
+placeOrderPressed_cb.cpp:(.text+0xa2e): multiple definition of `StockExchange::loadSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xa2e): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::loadBuyer(std::string)':
+placeOrderPressed_cb.cpp:(.text+0xd5c): multiple definition of `StockExchange::loadBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xd5c): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::saveLog(std::string)':
+placeOrderPressed_cb.cpp:(.text+0x108c): multiple definition of `StockExchange::saveLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x108c): first defined here
+/tmp/cczOExVd.o: In function `StockExchange::loadLog(std::string)':
+placeOrderPressed_cb.cpp:(.text+0x134a): multiple definition of `StockExchange::loadLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x134a): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::StockExchange(int)':
+sellPressed_cb.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::StockExchange(int)':
+sellPressed_cb.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::~StockExchange()':
+sellPressed_cb.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::~StockExchange()':
+sellPressed_cb.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::getPriceSeller()':
+sellPressed_cb.cpp:(.text+0x11e): multiple definition of `StockExchange::getPriceSeller()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x11e): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::getPriceBuyer()':
+sellPressed_cb.cpp:(.text+0x19e): multiple definition of `StockExchange::getPriceBuyer()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x19e): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::populate(std::string)':
+sellPressed_cb.cpp:(.text+0x21e): multiple definition of `StockExchange::populate(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x21e): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::saveSeller(std::string)':
+sellPressed_cb.cpp:(.text+0x504): multiple definition of `StockExchange::saveSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x504): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::saveBuyer(std::string)':
+sellPressed_cb.cpp:(.text+0x798): multiple definition of `StockExchange::saveBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x798): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::loadSeller(std::string)':
+sellPressed_cb.cpp:(.text+0xa2e): multiple definition of `StockExchange::loadSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xa2e): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::loadBuyer(std::string)':
+sellPressed_cb.cpp:(.text+0xd5c): multiple definition of `StockExchange::loadBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xd5c): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::saveLog(std::string)':
+sellPressed_cb.cpp:(.text+0x108c): multiple definition of `StockExchange::saveLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x108c): first defined here
+/tmp/ccCHjvQF.o: In function `StockExchange::loadLog(std::string)':
+sellPressed_cb.cpp:(.text+0x134a): multiple definition of `StockExchange::loadLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x134a): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::StockExchange(int)':
+showInputScreen.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::StockExchange(int)':
+showInputScreen.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::~StockExchange()':
+showInputScreen.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::~StockExchange()':
+showInputScreen.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::getPriceSeller()':
+showInputScreen.cpp:(.text+0x11e): multiple definition of `StockExchange::getPriceSeller()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x11e): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::getPriceBuyer()':
+showInputScreen.cpp:(.text+0x19e): multiple definition of `StockExchange::getPriceBuyer()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x19e): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::populate(std::string)':
+showInputScreen.cpp:(.text+0x21e): multiple definition of `StockExchange::populate(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x21e): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::saveSeller(std::string)':
+showInputScreen.cpp:(.text+0x504): multiple definition of `StockExchange::saveSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x504): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::saveBuyer(std::string)':
+showInputScreen.cpp:(.text+0x798): multiple definition of `StockExchange::saveBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x798): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::loadSeller(std::string)':
+showInputScreen.cpp:(.text+0xa2e): multiple definition of `StockExchange::loadSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xa2e): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::loadBuyer(std::string)':
+showInputScreen.cpp:(.text+0xd5c): multiple definition of `StockExchange::loadBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xd5c): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::saveLog(std::string)':
+showInputScreen.cpp:(.text+0x108c): multiple definition of `StockExchange::saveLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x108c): first defined here
+/tmp/ccEfXo3f.o: In function `StockExchange::loadLog(std::string)':
+showInputScreen.cpp:(.text+0x134a): multiple definition of `StockExchange::loadLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x134a): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::StockExchange(int)':
+showMenuScreen.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::StockExchange(int)':
+showMenuScreen.cpp:(.text+0x0): multiple definition of `StockExchange::StockExchange(int)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x0): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::~StockExchange()':
+showMenuScreen.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::~StockExchange()':
+showMenuScreen.cpp:(.text+0xbc): multiple definition of `StockExchange::~StockExchange()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xbc): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::getPriceSeller()':
+showMenuScreen.cpp:(.text+0x11e): multiple definition of `StockExchange::getPriceSeller()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x11e): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::getPriceBuyer()':
+showMenuScreen.cpp:(.text+0x19e): multiple definition of `StockExchange::getPriceBuyer()'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x19e): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::populate(std::string)':
+showMenuScreen.cpp:(.text+0x21e): multiple definition of `StockExchange::populate(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x21e): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::saveSeller(std::string)':
+showMenuScreen.cpp:(.text+0x504): multiple definition of `StockExchange::saveSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x504): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::saveBuyer(std::string)':
+showMenuScreen.cpp:(.text+0x798): multiple definition of `StockExchange::saveBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x798): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::loadSeller(std::string)':
+showMenuScreen.cpp:(.text+0xa2e): multiple definition of `StockExchange::loadSeller(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xa2e): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::loadBuyer(std::string)':
+showMenuScreen.cpp:(.text+0xd5c): multiple definition of `StockExchange::loadBuyer(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0xd5c): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::saveLog(std::string)':
+showMenuScreen.cpp:(.text+0x108c): multiple definition of `StockExchange::saveLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x108c): first defined here
+/tmp/ccVkx5ZX.o: In function `StockExchange::loadLog(std::string)':
+showMenuScreen.cpp:(.text+0x134a): multiple definition of `StockExchange::loadLog(std::string)'
+/tmp/cc9TbM9Y.o:buyPressed_cb.cpp:(.text+0x134a): first defined here
+collect2: error: ld returned 1 exit status
